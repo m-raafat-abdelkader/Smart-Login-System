@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container py-5 d-flex justify-content-center">
+        <div class=" rounded bg-dark py-5 w-75 shadow-lg px-5">
+            <h1 class="text-center fs-3 mb-5 text-light">Login <i class="fa-solid fa-right-to-bracket"></i></h1>
+            <input id="emailLogin"  type="email" placeholder="Enter your email" class="form-control mb-3 ">
+            <input id="passLogin" type="password" placeholder="Enter your password" class="form-control mb-3">
+            <p id="alertText" class="text-danger text-center"></p>
+            <button id="login" class="btn btn-outline-info mb-5 w-100">Login</button>
+            <p class="text-center text-white">Don’t have an account?  <button id = 'signUpBtn' class=" btn btn-outline-light">Sign Up</button></p>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

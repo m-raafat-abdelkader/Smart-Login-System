@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login</title>
+    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+   
+        <div class="container py-5 d-flex justify-content-center">
+            <div class=" rounded bg-dark py-5 w-75 shadow-lg px-5">
+                <h1 class="text-center fs-3 mb-5 text-light">Sign Up <i class="fa-solid fa-user-plus"></i></h1>
+                <input id="nameInpUp"  type="text" placeholder="Enter your name" class="form-control mb-2">
+                <p class="alertName text-warning fs-6 mb-4"></p>
+                <input id = 'emailInpUp' type="email" placeholder="Enter your email" class="form-control mb-2 ">
+                <p class="alertMail text-warning mb-4"></p>
+                <input id = 'passInpUp' type="password" placeholder="Enter your password" class="form-control mb-2">
+                <p class="alertPass text-warning mb-4"></p>
+                <p id="emailExist" class="text-center text-danger"></p>
+                <button id="register" class=" btn btn-outline-info mb-5 w-100">Sign Up</button>
+                <p class="text-center text-white">You have an account? <button id = 'signInBtn'class=" btn btn-outline-light">Sign in</button></p>
+            </div>
+        </div>
+   
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
