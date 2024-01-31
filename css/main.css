@@ -3,8 +3,11 @@ body{
     background-color: #a1ddf7;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-
+.form-control{
+    border: 4px solid rgba(153, 157, 160,0);
+    transition: all 0.5s;
+}
 .form-control:focus{
     box-shadow: none;
-    border: 4px solid rgb(153, 157, 160);
+    border: 4px solid rgb(11, 104, 175);
 }

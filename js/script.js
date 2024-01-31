@@ -16,44 +16,42 @@ const welcome = document.getElementById('welcome')
 const logoutBtn = document.getElementById('logout')
 
 
-if(signUpBtn){
-    signUpBtn.addEventListener('click', function(){
+
+signUpBtn?.addEventListener('click', function(){
       location.href='signup.html'
     })
-}
 
-if(signInBtn){
-    signInBtn.addEventListener('click',function(){
+
+
+signInBtn?.addEventListener('click',function(){
         location.href='index.html'
     })
-}
 
-if(registration){
-    registration.addEventListener('click', getUserData)
-}
 
-if(nameInpUp){
-    nameInpUp.addEventListener('keyup',validationName)
-}
 
-if(emailInpUp){
-    emailInpUp.addEventListener('keyup',validationEmail)
-}
+registration?.addEventListener('click', getUserData)
 
-if(passInpUp){
-    passInpUp.addEventListener('keyup',validationPass)
-}
 
-if(loginBtn){
-    loginBtn.addEventListener('click',login)
-}
 
-if(logoutBtn){
-    logoutBtn.addEventListener('click', function(){
+nameInpUp?.addEventListener('keyup',validationName)
+
+
+
+emailInpUp?.addEventListener('keyup',validationEmail)
+
+
+
+passInpUp?.addEventListener('keyup',validationPass)
+
+loginBtn?.addEventListener('click',login)
+
+
+
+logoutBtn?.addEventListener('click', function(){
         localStorage.removeItem('userName')
         location.href='index.html'
     })
-}
+
 
 
 
